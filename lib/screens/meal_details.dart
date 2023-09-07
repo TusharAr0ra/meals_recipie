@@ -39,7 +39,7 @@ class MealDetailsScreen extends ConsumerWidget {
                 //onToggleFavourites(meal);
               },
               icon: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 300),
+                duration: const Duration(milliseconds: 320),
                 transitionBuilder: (child, animation) {
                   return RotationTransition(
                     turns: Tween<double>(
